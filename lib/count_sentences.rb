@@ -28,9 +28,7 @@ class String
   end
 
   def count_sentences
-    x = []
-    self.each do |sentence| 
-      split(/. /) || self.split(/? /) || self.split(/! /)
+    x = .split(/[.?!] /) 
     return x.count 
     binding.pry
   end
