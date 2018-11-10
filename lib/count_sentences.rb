@@ -7,7 +7,6 @@ class String
       true 
     elsif self.end_with? != (".")
       false 
-    end 
   end
   
     
