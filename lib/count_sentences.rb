@@ -2,10 +2,10 @@ require 'pry'
 
 class String
 
-  def sentence?(input)
-    if input.end_with? == (".")
+  def sentence?
+    if self.end_with? == (".")
       true 
-    elsif input.end_with? != (".")
+    elsif self.end_with? != (".")
       false 
     end
   end
