@@ -31,5 +31,4 @@ class String
     self.split(".")
     binding.pry
   end
-  end
 end
