@@ -3,7 +3,12 @@ require 'pry'
 class String
 
   def sentence?(input)
-    if input
+    if input.end_with? == (".")
+      true 
+    elsif input.end_with? != (".")
+      false 
+  end
+  
     
   end
 
