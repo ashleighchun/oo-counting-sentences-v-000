@@ -29,7 +29,7 @@ class String
 
   def count_sentences
     x = self.split(/. /) 
-    
+    return x.count 
     binding.pry
   end
 end
